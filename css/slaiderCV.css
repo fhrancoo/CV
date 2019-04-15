@@ -1,0 +1,38 @@
+.mySlides {
+    width: 60%;
+}
+
+.slideshow-container {
+    
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    
+}
+
+img.one {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fade1 {
+    animation-name: fade1;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade1 {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
