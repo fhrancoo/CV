@@ -4,9 +4,17 @@ body {
     color:#868e96;
 }
 @media (min-width:992px) { 
-    body {padding-top:0;
-        padding-left:17rem;}
-    }
+body {
+        padding-top:0;
+        padding-left:17rem;
+}
+body::-webkit-scrollbar {
+    width: 2px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #0d8878;
+}
+}
 h1,h2,h3,h4,h5,h6 {
     font-family:'Saira Extra Condensed',serif;
     font-weight:700;
@@ -115,4 +123,12 @@ a{
 }
 a:active,a:focus,a:hover{
     color:#0d8878
+}
+body::-webkit-scrollbar {
+    background-color: rgb(199, 216, 214); 
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #0d8878;
+    border-radius: 5px;
 }
