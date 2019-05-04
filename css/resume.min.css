@@ -8,12 +8,6 @@ body {
         padding-top:0;
         padding-left:17rem;
 }
-body::-webkit-scrollbar {
-    width: 2px;
-}
-body::-webkit-scrollbar-thumb {
-    background-color: #0d8878;
-}
 }
 h1,h2,h3,h4,h5,h6 {
     font-family:'Saira Extra Condensed',serif;
