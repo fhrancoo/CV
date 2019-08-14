@@ -1,7 +1,7 @@
 body {
     font-family:'Open Sans',serif;
     padding-top:54px;
-    color:#868e96;
+    color:#d1d4d8;
 }
 @media (min-width:992px) { 
 body {
@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family:'Saira Extra Condensed',serif;
     font-weight:700;
     text-transform:uppercase;
-    color:#343a40;
+    color:#d1d4d8;
 }
 h1 {
     font-size:6rem;
@@ -85,7 +85,6 @@ h2 {
 }
 }
 section.resume-section{
-    border-bottom:1px solid #dee2e6;
     padding-top:5rem!important;
     padding-bottom:5rem!important
 }
@@ -119,7 +118,7 @@ a:active,a:focus,a:hover{
     color:#0d8878
 }
 body::-webkit-scrollbar {
-    background-color: rgb(199, 216, 214); 
+    background-color: rgb(8, 160, 142); 
     width: 10px;
 }
 body::-webkit-scrollbar-thumb {
