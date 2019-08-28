@@ -118,10 +118,44 @@ a:active,a:focus,a:hover{
     color:#0d8878
 }
 body::-webkit-scrollbar {
-    background-color: rgb(8, 160, 142); 
+    background-color: #0d8878; 
     width: 10px;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: #0d8878;
+    background-color: #d1d4d8;
     border-radius: 5px;
+}
+.padre-boton {
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #0d8878;
+    border: none;
+    cursor: pointer;
+    margin: 6em 0em 0em 0em;
+    text-decoration: none;
+    width: 12em;
+    height: 3em;
+}
+.boton a {
+    width: 5.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d1d4d8;
+    text-decoration: none;
+    margin: auto;
+    font-size: 50px;
+}
+.boton a {
+    font-size: 24px;
+}
+.boton:hover{
+    background-color: #0e695d;
+    border: solid #d1d4d8 1px;
 }
