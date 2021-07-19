@@ -42,6 +42,7 @@ h2 {
 }
 .list-icons .list-inline-item i:hover{
     color:#0d8878;
+    cursor: pointer;
 }
 #sideNav .navbar-nav .nav-item .nav-link{
     font-weight:600;
