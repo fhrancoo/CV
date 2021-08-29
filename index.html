@@ -290,7 +290,18 @@
 
     let Edad = añoActual - nac_Año;
 
-    if (mesActual >= nac_Mes && diaActual >= nac_Dia) {
+    if (mesActual == nac_Mes) {
+      if (diaActual < nac_Dia) {
+        Edad = Edad - 1;
+        let obj = document.getElementById("Edad");
+        obj.innerText = Edad;
+      }
+      else {
+        let obj = document.getElementById("Edad");
+        obj.innerText = Edad;
+      }
+    }
+    else if (mesActual > nac_Mes) {
       let obj = document.getElementById("Edad");
       obj.innerText = Edad;
     }
