@@ -160,3 +160,9 @@ body::-webkit-scrollbar-thumb {
     background-color: #0e695d;
     border: solid #d1d4d8 1px;
 }
+.contenedor-carrusel {
+    /* width: 55rem; */
+    margin: auto;
+    padding: 1rem;
+    border: 3px white dashed;
+}
